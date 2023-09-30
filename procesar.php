@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         echo '<p>No hay registros</p>';
     } else {
-        // Función para calcular promedio
+        
 function calcularPromedio($materia) {
     $total = 0;
     $numAlumnos = count($_SESSION['alumnos']);
@@ -80,7 +80,7 @@ function calcularPromedio($materia) {
     return $total / $numAlumnos;
 }
 
-// Función para contar aprobados y aplazados
+
 function contarAprobadosAplazados($materia) {
     $aprobados = 0;
     $aplazados = 0;
